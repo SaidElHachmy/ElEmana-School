@@ -75,3 +75,66 @@ function loadContact() {
 
   document.querySelector("[data-key='contact_send']").textContent = t.send;
 }
+
+
+
+function sendMessage() {
+  const nameInput = document.querySelector("[data-key='contact_name']");
+  const emailInput = document.querySelector("[data-key='contact_email_input']");
+  const messageInput = document.querySelector("[data-key='contact_message']");
+
+  const name = nameInput ? nameInput.value.trim() : "";
+  const email = emailInput ? emailInput.value.trim() : "";
+  const message = messageInput ? messageInput.value.trim() : "";
+
+  const lang = window.currentLang || "en";
+
+  const labels = {
+    en: {
+      alert: "Please fill in your name and message",
+      title: "📩 New Message from School Website",
+      name: "Name",
+      email: "Email",
+      message: "Message"
+    },
+    ar: {
+      alert: "يرجى إدخال الاسم والرسالة",
+      title: "📩 رسالة جديدة من موقع المدرسة",
+      name: "الاسم",
+      email: "البريد الإلكتروني",
+      message: "الرسالة"
+    },
+    fr: {
+      alert: "Veuillez remplir votre nom et votre message",
+      title: "📩 Nouveau message du site scolaire",
+      name: "Nom",
+      email: "Email",
+      message: "Message"
+    }
+  };
+
+  const t = labels[lang];
+
+  if (!name || !message) {
+    alert(t.alert);
+    return;
+  }
+
+  const phone = "22247324534";
+
+  const text = encodeURIComponent(
+    `${t.title}
+👤 ${t.name}: ${name}
+📧 ${t.email}: ${email || "N/A"}
+💬 ${t.message}: ${message}`
+  );
+
+  const url = `https://wa.me/${phone}?text=${text}`;
+
+  window.open(url, "_blank");
+
+  // 🧹 CLEAR FORM AFTER SENDING
+  if (nameInput) nameInput.value = "";
+  if (emailInput) emailInput.value = "";
+  if (messageInput) messageInput.value = "";
+}
