@@ -1,4 +1,5 @@
-window.currentLang = "en";
+// 🌍 DEFAULT LANGUAGE (MATCH YOUR HTML RTL)
+window.currentLang = "ar";
 
 // 🌍 TRANSLATIONS (BASE STRUCTURE)
 window.translations = {
@@ -15,18 +16,27 @@ document.addEventListener("DOMContentLoaded", () => {
 function initApp() {
   console.log("App started");
 
+  // ✅ Ensure correct direction from start
+  document.body.dir = window.currentLang === "ar" ? "rtl" : "ltr";
+
   showSection("home");
 
+  // 📅 Dynamic year
   const yearEl = document.getElementById("year");
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
 
+  // 📦 Load systems
   if (window.loadYears) loadYears();
+  if (window.loadBooks) loadBooks();
+  if (window.loadActivities) loadActivities();
+  if (window.loadContact) loadContact();
+  if (window.loadDeveloper) loadDeveloper();
 }
 
 //////////////////////////////////////////////////
-// 🔥 ADD THIS PART HERE (IMPORTANT)
+// 🔥 RESET SCHOOL UI (CLEAN NAVIGATION)
 //////////////////////////////////////////////////
 
 function resetSchoolUI() {
@@ -38,7 +48,7 @@ function resetSchoolUI() {
   if (studentsContainer) studentsContainer.innerHTML = "";
   if (detailsContainer) detailsContainer.innerHTML = "";
 
-  // reset toggles safely
+  // 🔁 Reset toggle states safely
   if (typeof openedYearId !== "undefined") openedYearId = null;
   if (typeof openedStudentId !== "undefined") openedStudentId = null;
 }
