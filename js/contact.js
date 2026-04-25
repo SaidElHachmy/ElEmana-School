@@ -138,3 +138,4 @@ function sendMessage() {
   if (emailInput) emailInput.value = "";
   if (messageInput) messageInput.value = "";
 }
+
