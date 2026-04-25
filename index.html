@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- ❗ DO NOT FORCE RTL HERE -->
+<body>
+
+  <!-- 🌐 NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🏫 El Emana School</div>
+
+    <div class="nav-links">
+      <button data-key="home" onclick="showSection('home')">الرئيسية</button>
+      <button data-key="years" onclick="showSection('years')">السنوات الدراسية</button>
+      <button data-key="library" onclick="showSection('library')">المكتبة</button>
+      <button data-key="activities" onclick="showSection('activities')">الأنشطة</button>
+      <button data-key="contact" onclick="showSection('contact')">اتصل بنا</button>
+      <button data-key="developer" onclick="showSection('developer')">المطور</button>
+    </div>
+
+    <!-- 🌍 LANGUAGE -->
+    <select onchange="changeLanguage(this.value)">
+      <!-- ✅ ARABIC AS DEFAULT -->
+      <option value="ar" selected>العربية</option>
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
+  </nav>
+
+  <!-- 🏠 HOME -->
+  <section id="home" class="section active">
+    <h1 data-key="home_title">مرحباً بكم في مدرسة الأمانة</h1>
+    <p data-key="home_text">هذا موقع حديث لإدارة المدرسة</p>
+  </section>
+
+  <!-- 🎓 YEARS SYSTEM -->
+  <section id="years" class="section">
+    <h2 data-key="years_title">السنوات الدراسية</h2>
+
+    <div id="yearsContainer"></div>
+    <div id="classesContainer"></div>
+    <div id="studentsContainer"></div>
+    <div id="studentDetailsContainer"></div>
+  </section>
+
+  <!-- 📚 LIBRARY -->
+  <section id="library" class="section">
+    <h2 data-key="library_title">المكتبة</h2>
+    <div id="booksContainer"></div>
+  </section>
+
+  <!-- 🎉 ACTIVITIES -->
+  <section id="activities" class="section">
+    <h2 data-key="activities_title">الأنشطة</h2>
+    <p data-key="activities_text">
+      Photos, videos, and school events will appear here.
+    </p>
+  </section>
+
+  <!-- 📞 CONTACT -->
+  <section id="contact" class="section">
+
+    <h2 data-key="contact_title">اتصل بنا</h2>
+
+    <div class="contact-container">
+
+      <div class="contact-info card">
+        <h3 data-key="contact_info_title">معلومات الاتصال</h3>
+
+        <p>📧 <span data-key="contact_email">البريد الإلكتروني:</span> school@email.com</p>
+        <p>📞 <span data-key="contact_phone">الهاتف:</span> +22247324534</p>
+        <p>📍 <span data-key="contact_address">العنوان:</span> نواكشوط، موريتانيا</p>
+
+        <p data-key="contact_hours">🕒 أوقات العمل: 8:00 - 16:00</p>
+      </div>
+
+      <div class="contact-form card">
+        <h3 data-key="contact_form_title">Send us a message</h3>
+
+        <input type="text" data-key="contact_name" />
+        <input type="email" data-key="contact_email_input" />
+        <textarea data-key="contact_message"></textarea>
+
+        <button onclick="sendMessage()" data-key="contact_send">
+          Send Message
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- 👨‍💻 DEVELOPER -->
+  <section id="developer" class="section">
+    <h2 data-key="developer_title">Developer</h2>
+    <div class="card">
+      <p data-key="developer_text">
+        Created by Said ElHachmy — Frontend Developer & Teacher
+      </p>
+    </div>
+  </section>
+
+  <!-- 📌 FOOTER -->
+  <footer>
+    © <span id="year"></span> <span data-key="footer_text">مدرسة الأمانة</span>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="data/yearsData.js"></script>
+  <script src="data/classesData.js"></script>
+  <script src="data/studentsData.js"></script>
+  <script src="data/books.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/years.js"></script>
+  <script src="js/classes.js"></script>
+  <script src="js/students.js"></script>
+  <script src="js/studentDetails.js"></script>
+  <script src="js/library.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/language.js"></script>
+  <script src="js/contact.js"></script>
+
+</body>
+</html>
