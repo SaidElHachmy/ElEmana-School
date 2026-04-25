@@ -130,8 +130,7 @@ function sendMessage() {
   );
 
   const url = `https://wa.me/${phone}?text=${text}`;
-
-  window.open(url, "_blank");
+window.location.href = url;
 
   // 🧹 CLEAR FORM AFTER SENDING
   if (nameInput) nameInput.value = "";
