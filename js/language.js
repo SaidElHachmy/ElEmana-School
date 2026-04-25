@@ -80,20 +80,20 @@ function changeLanguage(lang) {
   elements.forEach(el => {
     const key = el.getAttribute("data-key");
 
-    if (window.translations[lang]?.[key]) {
+    if (
+      window.translations[lang] &&
+      window.translations[lang][key]
+    ) {
       el.textContent = window.translations[lang][key];
     }
   });
 
-  // 🌍 direction control
-  document.body.dir = (lang === "ar") ? "rtl" : "ltr";
+  document.body.dir = lang === "ar" ? "rtl" : "ltr";
 
-  // 🔄 reload dynamic modules safely
-  if (typeof loadYears === "function") loadYears();
-  if (typeof loadBooks === "function") loadBooks();
+  if (window.loadYears) loadYears();
+  if (window.loadBooks) loadBooks();
+  if (window.loadActivities) loadActivities();
+  if (window.loadContact) loadContact();
+  // 🔥 ADD THIS
+  if (window.loadDeveloper) loadDeveloper();
 }
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  changeLanguage(window.currentLang);
-});
