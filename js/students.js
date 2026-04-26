@@ -3,7 +3,7 @@ function loadStudents(classId) {
   const detailsContainer = document.getElementById("studentDetailsContainer");
 
   if (!container || !detailsContainer) {
-    console.log("❌ Missing containers");
+    //console.log("❌ Missing containers");
     return;
   }
 
@@ -13,7 +13,7 @@ function loadStudents(classId) {
   const lang = window.currentLang || "en";
 
   if (!window.students || !Array.isArray(window.students)) {
-    console.log("❌ students data not loaded");
+    //console.log("❌ students data not loaded");
     return;
   }
 
@@ -57,7 +57,7 @@ function loadStudents(classId) {
     `;
 
     div.addEventListener("click", function () {
-      console.log("CLICK STUDENT:", student.id);
+      //console.log("CLICK STUDENT:", student.id);
       loadStudentDetails(student.id);
     });
 
@@ -70,7 +70,7 @@ function loadStudentDetails(id) {
   const container = document.getElementById("studentDetailsContainer");
 
   if (!container) {
-    console.log("❌ container missing");
+    //console.log("❌ container missing");
     return;
   }
 
@@ -78,7 +78,7 @@ function loadStudentDetails(id) {
     s => Number(s.id) === Number(id)
   );
 
-  console.log("FOUND STUDENT:", student);
+  //console.log("FOUND STUDENT:", student);
 
   if (!student) {
     const lang = window.currentLang || "en";
