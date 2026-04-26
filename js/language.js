@@ -90,6 +90,10 @@ function changeLanguage(lang) {
 
   document.body.dir = lang === "ar" ? "rtl" : "ltr";
 
+  
+  
+  
+  if (window.loadHomePosts) loadHomePosts();
   if (window.loadYears) loadYears();
   if (window.loadBooks) loadBooks();
   if (window.loadActivities) loadActivities();
