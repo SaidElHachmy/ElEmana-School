@@ -33,6 +33,7 @@ function initApp() {
   if (window.loadActivities) loadActivities();
   if (window.loadContact) loadContact();
   if (window.loadDeveloper) loadDeveloper();
+  if (window.loadMediaActivities) loadMediaActivities();
 }
 
 //////////////////////////////////////////////////
