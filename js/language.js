@@ -96,4 +96,9 @@ function changeLanguage(lang) {
   if (window.loadContact) loadContact();
   // 🔥 ADD THIS
   if (window.loadDeveloper) loadDeveloper();
+  
+  if (window.loadMediaActivities) loadMediaActivities();
+  
+  
+  
 }
