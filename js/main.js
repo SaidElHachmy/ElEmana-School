@@ -28,12 +28,14 @@ function initApp() {
   }
 
   // 📦 Load systems
+  if (window.loadHomePosts) loadHomePosts();
   if (window.loadYears) loadYears();
   if (window.loadBooks) loadBooks();
   if (window.loadActivities) loadActivities();
   if (window.loadContact) loadContact();
   if (window.loadDeveloper) loadDeveloper();
   if (window.loadMediaActivities) loadMediaActivities();
+  
 }
 
 //////////////////////////////////////////////////
