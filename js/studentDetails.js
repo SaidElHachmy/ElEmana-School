@@ -46,7 +46,8 @@ function loadStudentDetails(studentId) {
       <p><strong>${lang === "ar" ? "العنوان" : "Address"}:</strong> ${student.address || "N/A"}</p>
       <p><strong>${lang === "ar" ? "المستوى" : "Level"}:</strong> ${get(student.level)}</p>
       <p><strong>${lang === "ar" ? "الدورة" : "Cycle"}:</strong> ${get(student.cycle)}</p>
-      <p><strong>${lang === "ar" ? "الحضور" : "Attendance"}:</strong> ${student.attendance || "N/A"}</p>
+      
+
 
     </div>
   `;
