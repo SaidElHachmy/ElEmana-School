@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function initApp() {
-  console.log("App started");
+  //console.log("App started");
 
   // ✅ Ensure correct direction from start
   document.body.dir = window.currentLang === "ar" ? "rtl" : "ltr";
