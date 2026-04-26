@@ -28,7 +28,7 @@ window.students = [
       ar: "إعدادي"
     },
 
-    attendance: "95%"
+    
   },
   
   {
@@ -60,7 +60,7 @@ window.students = [
       ar: "إعدادي"
     },
 
-    attendance: "75%"
+    
   },
   {
     id: 3,
@@ -91,7 +91,7 @@ window.students = [
       ar: "إعدادي"
     },
 
-    attendance: "95%"
+    
   },
   
   {
@@ -123,8 +123,40 @@ window.students = [
       ar: "إعدادي"
     },
 
-    attendance: "75%"
+    
+  },
+   {
+    id: 4,
+    classId: 1,
+    image: "assets/images/student2.jpg",
+
+    name: {
+      en: "Med Said Md El Hachmy",
+      fr: "Mohamed Salem Ely Haddi",
+      ar: "محمد سعيد محمد الهاشمي"
+    },
+
+    birthDate: "1996-07-29",
+    nationalId: "2704759350",
+    schoolNumber: "RIM2234884",
+    phone: "47324534",
+    address: "Mauritania",
+
+    level: {
+      en: "1AS",
+      fr: "1AS",
+      ar: "1AS"
+    },
+
+    cycle: {
+      en: "COLLEGE",
+      fr: "COLLÈGE",
+      ar: "إعدادي"
+    },
+
+    
   }
+  
 ];
 
 function safe(value) {
