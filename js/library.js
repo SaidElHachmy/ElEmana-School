@@ -31,7 +31,7 @@ function loadBooks() {
   });
 }
 function downloadPDF(file) {
-  console.log("Trying to download:", file);
+  //console.log("Trying to download:", file);
 
   if (!file) {
     alert("File not found");
