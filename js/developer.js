@@ -86,7 +86,7 @@ function loadDeveloper() {
 
   // 🖼️ IMAGE
   const img = document.createElement("img");
-img.src = "assets/images/developer.jpg";
+img.src = "assets/images/me.jpg";
 
 // ❌ if image not found → fallback
 img.onerror = function () {
@@ -152,4 +152,4 @@ t.projects.forEach(p => {
   card.appendChild(info);
 
   container.appendChild(card);
-  }
+}
