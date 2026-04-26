@@ -133,7 +133,7 @@ function loadStudentDetails(id) {
 
         <p><strong>${lang === "ar" ? "الدورة" : "Cycle"}:</strong> ${get(student.cycle)}</p>
 
-        <p><strong>${lang === "ar" ? "الحضور" : "Attendance"}:</strong> ${get(student.attendance)}</p>
+
 
       </div>
 
