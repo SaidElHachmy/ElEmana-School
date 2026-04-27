@@ -6,11 +6,12 @@ function loadYears() {
 
   container.innerHTML = "";
 
+  const lang = window.currentLang || "en";
+
   window.yearsData.forEach(year => {
     const div = document.createElement("div");
     div.className = "card";
 
-    const lang = window.currentLang || "en";
     div.innerText = year.name[lang];
 
     div.onclick = () => {
@@ -29,7 +30,6 @@ function loadYears() {
 
       openedYearId = year.id;
 
-      // reset lower levels
       studentsContainer.innerHTML = "";
       detailsContainer.innerHTML = "";
 
@@ -39,4 +39,9 @@ function loadYears() {
 
     container.appendChild(div);
   });
+
+  // 🔥 FIX: refresh classes when language changes
+  if (openedYearId !== null) {
+    loadClasses(openedYearId);
+  }
 }
