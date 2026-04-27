@@ -9,6 +9,26 @@ function loadHomePosts() {
   // 🧠 POSTS DATA (ADD HERE)
   const posts = [
   {
+  type: "image",
+  src: "assets/images/postImage1.jpg",
+  text: {
+    en: "Today in the schoolyard, conversations turned into small stories, and silence transformed into lively movement. Every corner held a story, and every glance searched for a new meaning of learning beyond books. It looked like an ordinary day on the surface, but inside it carried a warmth that is not easily forgotten.",
+    ar: "في ساحة المدرسة اليوم تبدلت الأحاديث إلى حكاياتٍ صغيرة، وتحوّل الصمت إلى حركةٍ مليئة بالحياة. كل ركنٍ كان يحمل قصة، وكل نظرةٍ كانت تبحث عن معنى جديد للتعلّم خارج الكتب. كان يومًا عاديًا في ظاهره لكنه حمل في داخله شيئًا من الدفء الذي لا يُنسى.",
+    fr: "Aujourd’hui dans la cour de l’école, les discussions se sont transformées en petites histoires, et le silence en mouvement plein de vie. Chaque coin portait une histoire, et chaque regard cherchait un nouveau sens de l’apprentissage au-delà des livres. C’était un jour ordinaire en apparence, mais il contenait une chaleur qui ne s’oublie pas."
+  },
+  date: "2026-04-27",
+},
+{
+  type: "image",
+  src: "assets/images/postImage1.jpg",
+  text: {
+    en: "Today at our school, the younger students gathered around a simple idea that turned into a different kind of day. Soft laughter moved through the classrooms, and a spirit of cooperation brought hearts together before hands. It was a brief moment in time, but it left a long-lasting mark in memory.",
+    ar: "اليوم في مدرستنا اجتمع الصغار حول فكرةٍ بسيطة، لكنها صنعت يومًا مختلفًا. ضحكات خفيفة مرّت بين الصفوف، وروح تعاونٍ جمعت القلوب قبل الأيادي. كانت لحظةً قصيرة في الزمن لكنها تركت أثرًا طويلًا في الذاكرة.",
+    fr: "Aujourd’hui dans notre école, les plus jeunes se sont réunis autour d’une idée simple qui a transformé la journée. Des rires légers ont traversé les classes, et un esprit de coopération a uni les cœurs avant les mains. Ce fut un moment bref dans le temps, mais il a laissé une trace durable dans la mémoire."
+  },
+  date: "2026-04-27",
+},
+  {
     type: "image",
     src: "assets/images/postImage1.jpg",
     text: {
@@ -116,4 +136,4 @@ function loadHomePosts() {
 
     container.appendChild(card);
   });
-}
+      }
