@@ -28,6 +28,7 @@ function initApp() {
   }
 
   // 📦 Load systems
+  if (window.updateHistorySearchUI) updateHistorySearchUI();
   if (window.loadHomePosts) loadHomePosts();
   if (window.loadYears) loadYears();
   if (window.loadBooks) loadBooks();
