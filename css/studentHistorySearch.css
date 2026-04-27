@@ -1,0 +1,58 @@
+/* 🔍 SEARCH BOX */
+.history-search-box {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.history-search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.history-search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background: crimson;
+}
+
+/* 📦 RESULTS */
+#historyResults {
+  margin-top: 20px;
+}
+
+/* 🧱 CARD */
+.history-card {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  background: white;
+  border-radius: 12px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.history-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ❌ EMPTY */
+.empty-message {
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 20px;
+}
