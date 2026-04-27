@@ -5,9 +5,9 @@ window.students = [
     image: "assets/images/student1.jpg",
 
     name: {
-      en: "Mohamed Salem Ely Haddi",
-      fr: "Mohamed Salem Ely Haddi",
-      ar: "محمد سالم اعل حدي"
+      en: "Mohamed Lemin Mohamed Mahmoud",
+      fr: "Mohamed Lemin Mohamed Mahmoud",
+      ar: "محمد لمين محمد محمود"
     },
 
     birthDate: "2012-11-01",
