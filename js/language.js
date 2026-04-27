@@ -91,6 +91,12 @@ function changeLanguage(lang) {
   document.body.dir = lang === "ar" ? "rtl" : "ltr";
 
   
+if (window.updateHistorySearchUI) updateHistorySearchUI();
+
+// 🔥 THIS IS THE FIX
+if (window.renderHistoryResults && lastHistoryResults.length > 0) {
+  renderHistoryResults();
+}
   
   
   if (window.loadHomePosts) loadHomePosts();
