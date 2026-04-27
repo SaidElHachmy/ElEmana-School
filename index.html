@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>El Emana School</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/studentHistorySearch.css">
+
 </head>
 
 <!-- ❗ DO NOT FORCE RTL HERE -->
@@ -31,6 +33,20 @@
       <option value="en">English</option>
     </select>
   </nav>
+  
+  
+  <!-- 🔍 STUDENT HISTORY SEARCH -->
+<div class="history-search-box">
+
+<input id="historySearchInput" type="text">
+
+<button id="historySearchBtn" onclick="handleHistorySearch()"></button>
+
+<button id="historyClearBtn" onclick="clearHistoryResults()" style="display:none;"></button>
+</div>
+
+<!-- 📦 RESULTS -->
+<div id="historyResults"></div>
 
   <!-- 🏠 HOME -->
   <section id="home" class="section active">
@@ -120,7 +136,7 @@
   <script src="data/studentsData.js"></script>
   <script src="data/books.js"></script>
   
-  
+  <script src="js/studentHistorySearch.js"></script>
   
 <script src="js/homePostsSystem.js"></script>
   <script src="js/activities.js"></script>
