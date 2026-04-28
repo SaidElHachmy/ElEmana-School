@@ -7,6 +7,7 @@ window.translations = {
     library: "Library",
     activities: "Activities",
     contact: "Contact",
+    staff:"School Staff",
     developer: "Developer",
 
     home_title: "Welcome to El Emana School",
@@ -39,6 +40,7 @@ window.translations = {
     library_title: "المكتبة",
     activities_title: "الأنشطة",
     contact_title: "اتصل بنا",
+    staff : "الطاقم المدرسي",
     developer_title: "المطور",
 
     search_placeholder: "ابحث...",
@@ -53,6 +55,7 @@ window.translations = {
     library: "Bibliothèque",
     activities: "Activités",
     contact: "Contact",
+    staff: "Personnel scolaire",
     developer: "Développeur",
 
     home_title: "Bienvenue à l’école El Emana",
@@ -104,6 +107,7 @@ if (window.renderHistoryResults && lastHistoryResults.length > 0) {
   if (window.loadBooks) loadBooks();
   if (window.loadActivities) loadActivities();
   if (window.loadContact) loadContact();
+  if (window.loadStaff) loadStaff();
   // 🔥 ADD THIS
   if (window.loadDeveloper) loadDeveloper();
   
