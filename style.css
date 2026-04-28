@@ -108,6 +108,25 @@ select {
   margin-bottom: 10px;
 }
 
+
+.student-info p {
+  margin: 8px 0;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+/* Arabic alignment */
+body[dir="rtl"] .student-info {
+  text-align: right;
+}
+
+/* English/French alignment */
+body[dir="ltr"] .student-info {
+  text-align: left;
+}
+
+
+
 .student-info {
   text-align: left;
   margin-top: 10px;
