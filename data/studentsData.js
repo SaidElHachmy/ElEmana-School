@@ -1,164 +1,156 @@
 window.students = [
-  {
-    id: 1,
-    classId: 1,
-    image: "assets/images/student1.jpg",
+{
+  id: 1,
+  classId: 1,
+  image: "assets/images/student1.jpg",
 
-    name: {
-      en: "Mohamed Lemin Mohamed Mahmoud",
-      fr: "Mohamed Lemin Mohamed Mahmoud",
-      ar: "محمد لمين محمد محمود"
-    },
-
-    birthDate: "2012-11-01",
-    nationalId: "2704759350",
-    schoolNumber: "RIM2234884",
-    phone: "47324534",
-    address: "Mauritania",
-
-    level: {
-      en: "1AS",
-      fr: "1AS",
-      ar: "1AS"
-    },
-
-    cycle: {
-      en: "COLLEGE",
-      fr: "COLLÈGE",
-      ar: "إعدادي"
-    },
-
-    
+  name: {
+    en: "Ahmed Salem Ould Mohamed",
+    fr: "Ahmed Salem Ould Mohamed",
+    ar: "أحمد سالم ولد محمد"
   },
-  
-  {
-    id: 2,
-    classId: 1,
-    image: "assets/images/student2.jpg",
 
-    name: {
-      en: "Med Said Md El Hachmy",
-      fr: "Mohamed Salem Ely Haddi",
-      ar: "محمد سعيد محمد الهاشمي"
-    },
-
-    birthDate: "1996-07-29",
-    nationalId: "2704759350",
-    schoolNumber: "RIM2234884",
-    phone: "47324534",
-    address: "Mauritania",
-
-    level: {
-      en: "1AS",
-      fr: "1AS",
-      ar: "1AS"
-    },
-
-    cycle: {
-      en: "COLLEGE",
-      fr: "COLLÈGE",
-      ar: "إعدادي"
-    },
-
-    
+  birthDate: "2012-11-01",
+  nationalId: "2704759350",
+  schoolNumber: "RIM2234884",
+  phone: "47324534",
+  address: {
+    en: "Nouakchott, Mauritania",
+    fr: "Nouakchott, Mauritanie",
+    ar: "نواكشوط، موريتانيا"
   },
-  {
-    id: 3,
-    classId: 1,
-    image: "assets/images/student3.jpg",
 
-    name: {
-      en: "Mohamed",
-      fr: "Mohamed",
-      ar: "محمد"
-    },
+  level: "1AS",
 
-    birthDate: "2012-11-01",
-    nationalId: "2704759350",
-    schoolNumber: "RIM2234884",
-    phone: "47324534",
-    address: "Mauritania",
-
-    level: {
-      en: "1AS",
-      fr: "1AS",
-      ar: "1AS"
-    },
-
-    cycle: {
-      en: "COLLEGE",
-      fr: "COLLÈGE",
-      ar: "إعدادي"
-    },
-
-    
+  cycle: {
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
   },
-  
-  {
-    id: 4,
-    classId: 1,
-    image: "assets/images/student4.jpg",
+},
 
-    name: {
-      en: "Said",
-      fr: "Said",
-      ar: "سعيد"
-    },
+{
+  id: 2,
+  classId: 1,
+  image: "assets/images/student2.jpg",
 
-    birthDate: "1996-07-29",
-    nationalId: "2704759350",
-    schoolNumber: "RIM2234884",
-    phone: "47324534",
-    address: "Mauritania",
-
-    level: {
-      en: "1AS",
-      fr: "1AS",
-      ar: "1AS"
-    },
-
-    cycle: {
-      en: "COLLEGE",
-      fr: "COLLÈGE",
-      ar: "إعدادي"
-    },
-
-    
+  name: {
+    en: "Moussa Cheikh Abdallahi",
+    fr: "Moussa Cheikh Abdallahi",
+    ar: "موسى الشيخ عبد الله"
   },
-   {
-    id: 4,
-    classId: 1,
-    image: "assets/images/student2.jpg",
 
-    name: {
-      en: "Med Said Md El Hachmy",
-      fr: "Mohamed Salem Ely Haddi",
-      ar: "محمد سعيد محمد الهاشمي"
-    },
+  birthDate: "2011-05-14",
+  nationalId: "2704759351",
+  schoolNumber: "RIM2234885",
+  phone: "47324535",
+  address: {
+    en: "Nouakchott, Mauritania",
+    fr: "Nouakchott, Mauritanie",
+    ar: "نواكشوط، موريتانيا"
+  },
 
-    birthDate: "1996-07-29",
-    nationalId: "2704759350",
-    schoolNumber: "RIM2234884",
-    phone: "47324534",
-    address: "Mauritania",
+  level: "1AS",
 
-    level: {
-      en: "1AS",
-      fr: "1AS",
-      ar: "1AS"
-    },
+  cycle: {
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
+  },
+},
 
-    cycle: {
-      en: "COLLEGE",
-      fr: "COLLÈGE",
-      ar: "إعدادي"
-    },
+{
+  id: 3,
+  classId: 1,
+  image: "assets/images/student3.jpg",
 
-    
-  }
-  
+  name: {
+    en: "Yahya Ould Sidi",
+    fr: "Yahya Ould Sidi",
+    ar: "يحيى ولد سيدي"
+  },
+
+  birthDate: "2012-02-20",
+  nationalId: "2704759352",
+  schoolNumber: "RIM2234886",
+  phone: "47324536",
+  address: {
+    en: "Nouakchott, Mauritania",
+    fr: "Nouakchott, Mauritanie",
+    ar: "نواكشوط، موريتانيا"
+  },
+
+  level: "1AS",
+
+  cycle: {
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
+  },
+},
+
+{
+  id: 4,
+  classId: 1,
+  image: "assets/images/student4.jpg",
+
+  name: {
+    en: "Abdoul Aziz Mohamed Lemine",
+    fr: "Abdoul Aziz Mohamed Lemine",
+    ar: "عبد العزيز محمد لمين"
+  },
+
+  birthDate: "2011-09-10",
+  nationalId: "2704759353",
+  schoolNumber: "RIM2234887",
+  phone: "47324537",
+  address: {
+    en: "Nouakchott, Mauritania",
+    fr: "Nouakchott, Mauritanie",
+    ar: "نواكشوط، موريتانيا"
+  },
+
+  level: "1AS",
+
+  cycle: {
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
+  },
+},
+
+{
+  id: 5,
+  classId: 1,
+  image: "assets/images/student5.jpg",
+
+  name: {
+    en: "Sidi Mohamed El Mokhtar",
+    fr: "Sidi Mohamed El Mokhtar",
+    ar: "سيدي محمد المختار"
+  },
+
+  birthDate: "2012-06-03",
+  nationalId: "2704759354",
+  schoolNumber: "RIM2234888",
+  phone: "47324538",
+  address: {
+    en: "Nouakchott, Mauritania",
+    fr: "Nouakchott, Mauritanie",
+    ar: "نواكشوط، موريتانيا"
+  },
+
+  level: "1AS",
+
+  cycle: {
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
+  },
+}
+
 ];
 
 function safe(value) {
   return value && value.trim && value.trim() !== "" ? value : "N/A";
-}
+  }
