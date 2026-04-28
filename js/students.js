@@ -96,11 +96,11 @@ function loadStudentDetails(id) {
   const lang = window.currentLang || "en";
 
   // 🔥 FIXED SMART GET (THIS IS THE IMPORTANT PART)
-  function getField(field, lang) {
+  function get(field) {
   if (!field) return "N/A";
 
   if (typeof field === "object") {
-    return field[lang] || field.en || field.fr || field.ar || "N/A";
+    return field[window.currentLang] || field.en || "N/A";
   }
 
   return field;
@@ -118,19 +118,37 @@ function loadStudentDetails(id) {
 
     <div class="student-info">
 
-      <p> <span style="font-weight: bold;">🆔 ${lang === "ar" ? "الرقم المعرف" : lang === "fr" ? "ID" : "ID"}:</span> ${get(student.nationalId)}</p>
+      <p> <span style="font-weight: bold;">${lang === "ar" ? " الرقم الوطني للتعريف" : lang === "fr" ? "ID" : "ID"}:</span> ${get(student.nationalId)}</p>
 
-      <p> <span style="font-weight: bold;">🎂 ${lang === "ar" ? "تاريخ الميلاد" : lang === "fr" ? "Date de naissance" : "Birth Date"}:</span> ${get(student.birthDate)}</p>
+      <p> <span style="font-weight: bold;">${lang === "ar" ? "تاريخ الميلاد" : lang === "fr" ? "Date de naissance" : "Birth Date"}:</span> ${get(student.birthDate)}</p>
 
-      <p> <span style="font-weight: bold;">🏫 ${lang === "ar" ? "رقم المدرسة" : lang === "fr" ? "Numéro scolaire" : "School Number"}:</span> ${get(student.schoolNumber)}</p>
+      <p> <span style="font-weight: bold;">${lang === "ar" ? "رقم المدرسة" : lang === "fr" ? "Numéro scolaire" : "School Number"}:</span> ${get(student.schoolNumber)}</p>
 
-      <p> <span style="font-weight: bold;">📞 ${lang === "ar" ? "الهاتف" : lang === "fr" ? "Téléphone" : "Phone"}:</span> ${get(student.phone)}</p>
+      
+      
+      ${
+  get(student.phone) !== "N/A"
+    ? `<p>
+        <span style="font-weight: bold;">
+          ${lang === "ar" ? "الهاتف" : lang === "fr" ? "Téléphone" : "Phone"}:
+        </span> 
+        <a href="tel:+222${get(student.phone)}" style="color: inherit; text-decoration: none;">
+          ${get(student.phone)}
+        </a>
+      </p>`
+    : ""
+}
+      
+      
+      
 
-      <p> <span style="font-weight: bold;">📍 ${lang === "ar" ? "العنوان" : lang === "fr" ? "Adresse" : "Address"}:</span> ${get(student.address)}</p>
 
-      <p> <span style="font-weight: bold;">🎓 ${lang === "ar" ? "المستوى" : lang === "fr" ? "Niveau" : "Level"}:</span> ${get(student.level)}</p>
+<p> <span style="font-weight: bold;">${lang === "ar" ? "العنوان" : lang === "fr" ? "Adresse" : "Address"}: </span>${get(student.address)}</p>
 
-      <p> <span style="font-weight: bold;">📚 ${lang === "ar" ? "الدورة" : lang === "fr" ? "Cycle" : "Cycle"}:</span> ${get(student.cycle)}</p>
+<p>  <span style="font-weight: bold;">${lang === "ar" ? "المستوى" : lang === "fr" ? "Niveau" : "Level"}: </span>${get(student.level)}</p>
+
+
+      <p> <span style="font-weight: bold;">${lang === "ar" ? "الدورة" : lang === "fr" ? "Cycle" : "Cycle"}:</span> ${get(student.cycle)}</p>
 
 
     </div>
@@ -138,4 +156,4 @@ function loadStudentDetails(id) {
   </div>
 `;
   
-}
+            }
