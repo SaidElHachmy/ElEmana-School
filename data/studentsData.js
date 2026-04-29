@@ -145,9 +145,9 @@ window.students = [
   level: "5C",
 
   cycle: {
-    en: "PRIMARY",
-    fr: "PRIMAIRE",
-    ar: "ابتدائي"
+    en: "COLLEGE",
+    fr: "COLLÈGE",
+    ar: "إعدادي"
   },
 },
 
