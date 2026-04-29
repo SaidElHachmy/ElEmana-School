@@ -53,24 +53,29 @@ function loadHomePosts() {
   container.innerHTML = "";
 
   // 🎨 CONTAINER STYLE
-  container.style.display = "flex";
-  container.style.flexDirection = "column";
-  container.style.gap = "20px";
-  container.style.marginTop = "20px";
-
+  container.style.display = "grid";
+container.style.gridTemplateColumns = "repeat(auto-fit, minmax(250px, 1fr))";
+container.style.gap = "20px";
+container.style.marginTop = "20px";
   // 🎴 CREATE POSTS
   posts.forEach(post => {
     const card = document.createElement("div");
 
     // 🎨 CARD STYLE
     card.style.background = "#fff";
-    card.style.borderRadius = "15px";
-    card.style.overflow = "hidden";
-    card.style.boxShadow = "0 5px 15px rgba(0,0,0,0.1)";
-    card.style.transition = "0.3s";
+card.style.borderRadius = "15px";
+card.style.overflow = "hidden";
+card.style.boxShadow = "0 5px 15px rgba(0,0,0,0.1)";
+card.style.transition = "0.3s";
+card.style.cursor = "pointer";
 
-    card.onmouseenter = () => card.style.transform = "scale(1.01)";
-    card.onmouseleave = () => card.style.transform = "scale(1)";
+card.onmouseenter = () => {
+  card.style.transform = "scale(1.03)";
+};
+
+card.onmouseleave = () => {
+  card.style.transform = "scale(1)";
+};
 
     // 📸 / 🎬 MEDIA
     let media;
@@ -86,7 +91,7 @@ function loadHomePosts() {
       };
 
       media.style.width = "100%";
-      media.style.height = "250px";
+      media.style.height = "200px";
       media.style.objectFit = "cover";
     }
 
@@ -136,4 +141,4 @@ function loadHomePosts() {
 
     container.appendChild(card);
   });
-      }
+}
