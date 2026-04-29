@@ -69,10 +69,7 @@ window.classes = [
       fr: "Class : 7 C"
     }
   },
-  
-  
-  
-  
+  /*
   {
     id: 8,
     yearId: 2,
@@ -81,5 +78,71 @@ window.classes = [
       ar: "القسم : 1AS",
       fr: "Class : 1 AS"
     }
-  }
+  },
+  
+  {
+    id: 9,
+    yearId: 2,
+    name: {
+      en: "Class : 2 AS",
+      ar: "القسم : 2AS",
+      fr: "Class : 2 AS"
+    }
+  },
+  
+  {
+    id: 10,
+    yearId: 2,
+    name: {
+      en: "Class : 3 AS",
+      ar: "القسم : 3AS",
+      fr: "Class : 3 AS"
+    }
+  },
+  
+  {
+    id: 11,
+    yearId: 2,
+    name: {
+      en: "Class : 4 AS",
+      ar: "القسم : 4AS",
+      fr: "Class : 4 AS"
+    }
+  },
+  
+  {
+    id: 12,
+    yearId: 2,
+    name: {
+      en: "Class : 5 C",
+      ar: "القسم : 5C",
+      fr: "Class : 5 C"
+    }
+  },
+  
+  
+  {
+    id: 13,
+    yearId: 2,
+    name: {
+      en: "Class : 6 C",
+      ar: "القسم : 6C",
+      fr: "Class : 6 C"
+    }
+  },
+  
+  {
+    id: 14,
+    yearId: 2,
+    name: {
+      en: "Class : 7 C",
+      ar: "القسم : 7C",
+      fr: "Class : 7 C"
+    }
+  },
+  
+  
+  */
+  
+  
 ];
