@@ -253,7 +253,7 @@ window.staffData = [
     fr: "Enseignement primaire",
     ar: "التعليم الابتدائي"
   },
-  phone: "00000000"
+  phone: "44611329"
 },
 {
   image: "assets/images/teacher13.jpg",
