@@ -220,9 +220,9 @@ window.staffData = [
 {
   image: "assets/images/teacher11.jpg",
   name: {
-    en: "Nibghouha",
-    fr: "Nibghouha",
-    ar: "نبغوها"
+    en: "Nibghouha Sheikh Ashbih",
+    fr: "Nibghouha Sheikh Ashbih",
+    ar: "نبغوها الشيخ اشبيه"
   },
   role: {
     en: "Primary School Teacher",
@@ -395,4 +395,4 @@ function applyStaffStyles() {
   }
 `;
   document.head.appendChild(style);
-  }
+}
