@@ -65,7 +65,17 @@ select {
   border-radius: 4px;
   border: none;
 }
+.contact-link {
+  text-decoration: none;
+  color: #1a73e8; /* Google-like blue (clear clickable signal) */
+  font-weight: 600;
+  transition: 0.2s ease;
+}
 
+.contact-link:hover {
+  color: #0b57d0;
+  text-decoration: underline;
+}
 .student-card {
   background: #fff;
   border-radius: 15px;
@@ -108,11 +118,14 @@ select {
   margin-bottom: 10px;
 }
 
-
 .student-info p {
   margin: 8px 0;
   line-height: 1.8;
-  font-weight: 500;
+}
+
+/* bold labels */
+.student-info .label {
+  font-weight: bold;
 }
 
 /* Arabic alignment */
@@ -120,12 +133,10 @@ body[dir="rtl"] .student-info {
   text-align: right;
 }
 
-/* English/French alignment */
+/* English / French */
 body[dir="ltr"] .student-info {
   text-align: left;
 }
-
-
 
 .student-info {
   text-align: left;
