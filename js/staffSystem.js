@@ -22,60 +22,270 @@ const staffLang = {
 
 // 👨‍🏫 STAFF DATA
 window.staffData = [
-  {
-    image: "assets/images/teacher1.jpg",
-    name: {
-      en: "Ahmed Mohamed",
-      fr: "Ahmed Mohamed",
-      ar: "أحمد محمد"
-    },
-    role: {
-      en: "Teacher",
-      fr: "Enseignant",
-      ar: "أستاذ"
-    },
-    subject: {
-      en: "Math",
-      fr: "Mathématiques",
-      ar: "رياضيات"
-    },
-    phone: "47324534"
+{
+  image: "assets/images/me.jpg",
+  name: {
+    en: "Said ElHachmy",
+    fr: "Said ElHachmy",
+    ar: "سعيد الهاشمي"
   },
-
-  {
-    image: "assets/images/teacher2.jpg",
-    name: {
-      en: "Fatima Zahra",
-      fr: "Fatima Zahra",
-      ar: "فاطمة الزهراء"
-    },
-    role: {
-      en: "Teacher",
-      fr: "Enseignante",
-      ar: "أستاذة"
-    },
-    subject: {
-      en: "English & Arabic",
-      fr: "Anglais & Arabe",
-      ar: "إنجليزي و عربي"
-    },
-    phone: "47320000"
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
   },
+  subject: {
+    en: "English and Arabic",
+    fr: "Anglais et Arabe",
+    ar: "الإنجليزية والعربية"
+  },
+  phone: "47324534"
+},
 
-  {
-    image: "assets/images/principal.jpg",
-    name: {
-      en: "Mohamed Salem",
-      fr: "Mohamed Salem",
-      ar: "محمد سالم"
-    },
-    role: {
-      en: "Principal",
-      fr: "Directeur",
-      ar: "مدير"
-    },
-    phone: "47324534"
-  }
+{
+  image: "assets/images/teacher2.jpg",
+  name: {
+    en: "Mohamed Abdallah",
+    fr: "Mohamed Abdallah",
+    ar: "محمد عبدالله"
+  },
+  role: {
+    en: "Principal",
+    fr: "Directeur",
+    ar: "المدير"
+  },
+  subject: {
+    en: "Administration",
+    fr: "Administration scolaire",
+    ar: "الإدارة"
+  },
+  phone: "22977797"
+},
+
+{
+  image: "assets/images/teacher3.jpg",
+  name: {
+    en: "Alin",
+    fr: "Alin",
+    ar: "عليين"
+  },
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
+  },
+  subject: {
+    en: "Math and Physics",
+    fr: "Mathématiques et Physique",
+    ar: "الرياضيات والفيزياء"
+  },
+  phone: "48323879"
+},
+{
+  image: "assets/images/teacher4.jpg",
+  name: {
+    en: "Al-Naji",
+    fr: "Al-Naji",
+    ar: "الناجي"
+  },
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
+  },
+  subject: {
+    en: "Islamic Education and Arabic",
+    fr: "Éducation islamique et arabe",
+    ar: "التربية الإسلامية والعربية"
+  },
+  phone: "26500338"
+},
+
+{
+  image: "assets/images/teacher5.jpg",
+  name: {
+    en: "Suleiman",
+    fr: "Souleiman",
+    ar: "سليمان"
+  },
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
+  },
+  subject: {
+    en: "Civics, History and Geography",
+    fr: "Éducation civique, Histoire et Géographie",
+    ar: "التربية المدنية والتاريخ والجغرافيا"
+  },
+  phone: "41289090"
+},
+{
+  image: "assets/images/teacher6.jpg",
+  name: {
+    en: "Abdullah",
+    fr: "Abdallah",
+    ar: "عبد الله"
+  },
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
+  },
+  subject: {
+    en: "French",
+    fr: "Français",
+    ar: "الفرنسية"
+  },
+  phone: "32343767"
+},
+{
+  image: "assets/images/teacher7.jpg",
+  name: {
+    en: "Ahmed",
+    fr: "Ahmed",
+    ar: "أحمد"
+  },
+  role: {
+    en: "Teacher",
+    fr: "Enseignant",
+    ar: "أستاذ"
+  },
+  subject: {
+    en: "Natural Sciences",
+    fr: "Sciences naturelles",
+    ar: "العلوم الطبيعية"
+  },
+  phone: "46510744"
+},
+
+{
+  image: "assets/images/teacher8.jpg",
+  name: {
+    en: "Al-Hafiz",
+    fr: "Al-Hafiz",
+    ar: "الحافظ"
+  },
+  role: {
+    en: "Accountant",
+    fr: "Comptable",
+    ar: "محاسب"
+  },
+  subject: {
+    en: "Accounting",
+    fr: "Comptabilité",
+    ar: "المحاسبة"
+  },
+  phone: "30364865"
+},
+{
+  image: "assets/images/teacher9.jpg",
+  name: {
+    en: "Mohamed",
+    fr: "Mohamed",
+    ar: "محمد"
+  },
+  role: {
+    en: "Supervisor",
+    fr: "Surveillant",
+    ar: "مراقب"
+  },
+  subject: {
+    en: "Supervision",
+    fr: "Surveillance",
+    ar: "الإشراف"
+  },
+  phone: "00000000"
+},
+
+{
+  image: "assets/images/teacher10.jpg",
+  name: {
+    en: "Mohamed Bahan",
+    fr: "Mohamed Bahan",
+    ar: "محمد بحان"
+  },
+  role: {
+    en: "Assistant Principal",
+    fr: "Directeur adjoint",
+    ar: "مدير مساعد"
+  },
+  subject: {
+    en: "School Administration",
+    fr: "Administration scolaire",
+    ar: "إدارة المدرسة"
+  },
+  phone: "36177203"
+},
+{
+  image: "assets/images/teacher11.jpg",
+  name: {
+    en: "Nibghouha",
+    fr: "Nibghouha",
+    ar: "نبغوها"
+  },
+  role: {
+    en: "Primary School Teacher",
+    fr: "Enseignante du primaire",
+    ar: "معلمة إبتدائي"
+  },
+  subject: {
+    en: "Primary Education",
+    fr: "Enseignement primaire",
+    ar: "التعليم الابتدائي"
+  },
+  phone: "32203617"
+},
+{
+  image: "assets/images/teacher12.jpg",
+  name: {
+    en: "Malik",
+    fr: "Malik",
+    ar: "مالك"
+  },
+  role: {
+    en: "Primary School Teacher",
+    fr: "Enseignant du primaire",
+    ar: "معلم إبتدائي"
+  },
+  subject: {
+    en: "Primary Education",
+    fr: "Enseignement primaire",
+    ar: "التعليم الابتدائي"
+  },
+  phone: "00000000"
+},
+{
+  image: "assets/images/teacher13.jpg",
+  name: {
+    en: "Ramla",
+    fr: "Ramla",
+    ar: "رملة"
+  },
+  role: {
+    en: "Kindergarten Teacher",
+    fr: "Enseignante de maternelle",
+    ar: "معلمة روضة أطفال"
+  },
+  subject: {
+    en: "Early Childhood Education",
+    fr: "Éducation de la petite enfance",
+    ar: "التعليم المبكر للأطفال"
+  },
+  phone: "49003133"
+}
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
 
@@ -185,4 +395,4 @@ function applyStaffStyles() {
   }
 `;
   document.head.appendChild(style);
-}
+  }
