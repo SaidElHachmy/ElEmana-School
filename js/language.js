@@ -1,11 +1,13 @@
 window.currentLang = "ar"; // ✅ Arabic is now DEFAULT
 
+
 window.translations = {
   en: {
     home: "Home",
     years: "School Years",
     library: "Library",
     activities: "Activities",
+    schedule : "Schedule",
     contact: "Contact",
     staff:"School Staff",
     developer: "Developer",
@@ -30,6 +32,7 @@ window.translations = {
     years: "السنوات الدراسية",
     library: "المكتبة",
     activities: "الأنشطة",
+    schedule :"الجدول",
     contact: "اتصل بنا",
     developer: "المطور",
 
@@ -54,6 +57,7 @@ window.translations = {
     years: "Années scolaires",
     library: "Bibliothèque",
     activities: "Activités",
+    schedule : "Emploi du temps",
     contact: "Contact",
     staff: "Personnel scolaire",
     developer: "Développeur",
@@ -106,6 +110,7 @@ if (window.renderHistoryResults && lastHistoryResults.length > 0) {
   if (window.loadYears) loadYears();
   if (window.loadBooks) loadBooks();
   if (window.loadActivities) loadActivities();
+  if (window.loadSchedule) loadSchedule();
   if (window.loadContact) loadContact();
   if (window.loadStaff) loadStaff();
   // 🔥 ADD THIS
