@@ -11,7 +11,7 @@ function loadContact() {
       phone: "Phone:",
       address: "Address:",
       address_value: "Nouakchott, Mauritania",
-      hours: "🕒 Working Hours: 8:00 - 16:00",
+      hours: "🕒 Working Hours: 8:00 - 14:00",
       form_title: "Send us a message",
       name: "Your Name",
       email_input: "Your Email",
@@ -26,7 +26,7 @@ function loadContact() {
       phone: "الهاتف:",
       address: "العنوان:",
       address_value: "نواكشوط، موريتانيا",
-      hours: "🕒 أوقات العمل: 8:00 - 16:00",
+      hours: "🕒 أوقات العمل: 8:00 - 14:00",
       form_title: "أرسل لنا رسالة",
       name: "اسمك",
       email_input: "بريدك الإلكتروني",
@@ -41,7 +41,7 @@ function loadContact() {
       phone: "Téléphone:",
       address: "Adresse:",
       address_value: "Nouakchott, Mauritanie",
-      hours: "🕒 Heures de travail: 8:00 - 16:00",
+      hours: "🕒 Heures de travail: 8:00 - 14:00",
       form_title: "Envoyez-nous un message",
       name: "Votre nom",
       email_input: "Votre email",
@@ -120,13 +120,13 @@ function sendMessage() {
     return;
   }
 
-  const phone = "22247324534";
+  const phone = "+22222977797";
 
   const text = encodeURIComponent(
     `${t.title}
-👤 ${t.name}: ${name}
-📧 ${t.email}: ${email || "N/A"}
-💬 ${t.message}: ${message}`
+${t.name}: ${name}
+${t.email}: ${email || "N/A"}
+${t.message}: ${message}`
   );
 
   const url = `https://wa.me/${phone}?text=${text}`;
