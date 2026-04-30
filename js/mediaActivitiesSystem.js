@@ -1,4 +1,5 @@
 // 🎉 MEDIA ACTIVITIES SYSTEM (FULL JS: DATA + STYLE + UI)
+let currentPlayingVideo = null;
 
 function loadMediaActivities() {
   const section = document.getElementById("activities");
@@ -8,43 +9,335 @@ function loadMediaActivities() {
 
   // 🧠 DATA (ADD YOUR POSTS HERE)
   const mediaData = [
-    {
-      type: "image",
-      src: "assets/images/activity1.jpg",
-      text: {
-        en: "Students enjoying a fun classroom activity.",
-        ar: "الطلاب يستمتعون بنشاط داخل الفصل.",
-        fr: "Les élèves profitent d'une activité en classe."
-      }
-    },
+{
+  type: "image",
+  src: "assets/images/activity1.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "image",
+  src: "assets/images/activity2.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "image",
+  src: "assets/images/activity3.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+{
+  type: "image",
+  src: "assets/images/activity4.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+{
+  type: "image",
+  src: "assets/images/activity5.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+{
+  type: "image",
+  src: "assets/images/activity6.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+{
+  type: "image",
+  src: "assets/images/activity7.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity8.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity9.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity10.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity11.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+{
+  type: "image",
+  src: "assets/images/activity12.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+{
+  type: "image",
+  src: "assets/images/activity13.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+{
+  type: "image",
+  src: "assets/images/activity14.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
+
+
+
     {
       type: "video",
       src: "assets/videos/video1.mp4",
       text: {
-        en: "A short video from our school event.",
-        ar: "فيديو قصير من نشاط مدرسي.",
-        fr: "Une courte vidéo d’un événement scolaire."
+        en: "",
+    ar: "",
+    fr: ""
       }
     },
     
-        {
-      type: "image",
-      src: "assets/images/activity1.jpg",
-      text: {
-        en: "Students enjoying a fun classroom activity.",
-        ar: "الطلاب يستمتعون بنشاط داخل الفصل.",
-        fr: "Les élèves profitent d'une activité en classe."
-      }
-    },
+    
+
+
+
     {
       type: "video",
-      src: "assets/videos/video1.mp4",
+      src: "assets/videos/video2.mp4",
       text: {
-        en: "A short video from our school event.",
-        ar: "فيديو قصير من نشاط مدرسي.",
-        fr: "Une courte vidéo d’un événement scolaire."
+        en: "",
+    ar: "",
+    fr: ""
       }
-    }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video3.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video4.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video5.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video6.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video7.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video8.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video9.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video10.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video11.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+
+
+
+    {
+      type: "video",
+      src: "assets/videos/video12.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   ];
 
@@ -96,37 +389,55 @@ if (item.type === "image") {
   // ❌ if image not found → fallback
   mediaEl.onerror = function () {
     this.onerror = null;
-    this.src = "assets/images/pic_error.gif"; // ✅ fixed extension
+    this.src = "assets/images/pic_error.gif";
+    this.style.objectFit = "cover";// ✅ fixed extension
   };
 
   mediaEl.style.width = "100%";
   mediaEl.style.height = "200px";
-  mediaEl.style.objectFit = "cover";
+  mediaEl.style.objectFit = "contain";
+mediaEl.style.background = "#f5f5f5";
 }
-
 if (item.type === "video") {
   mediaEl = document.createElement("video");
   mediaEl.src = item.src;
   mediaEl.controls = true;
 
-  // 🎬 Default poster
-  mediaEl.poster = "assets/images/pic_error.gif";
+  mediaEl.style.width = "100%";
+  mediaEl.style.height = "200px";
+  mediaEl.style.objectFit = "contain";
+  mediaEl.style.background = "#f5f5f5";
 
-  // ❌ If video not found → remove video behavior
+  // 🎯 ONLY ONE VIDEO AT A TIME
+  mediaEl.addEventListener("play", () => {
+    if (currentPlayingVideo && currentPlayingVideo !== mediaEl) {
+      currentPlayingVideo.pause();
+    }
+    currentPlayingVideo = mediaEl;
+  });
+
+  // 🧹 cleanup when paused/ended
+  mediaEl.addEventListener("pause", () => {
+    if (currentPlayingVideo === mediaEl) {
+      currentPlayingVideo = null;
+    }
+  });
+
+  mediaEl.addEventListener("ended", () => {
+    if (currentPlayingVideo === mediaEl) {
+      currentPlayingVideo = null;
+    }
+  });
+
+  // ❌ fallback error
   mediaEl.onerror = function () {
     const img = document.createElement("img");
     img.src = "assets/images/tv_error.gif";
     img.style.width = "100%";
     img.style.height = "200px";
     img.style.objectFit = "cover";
-
-    // replace video with image
     this.replaceWith(img);
   };
-
-  mediaEl.style.width = "100%";
-  mediaEl.style.height = "200px";
-  mediaEl.style.objectFit = "cover";
 }
     // 📝 TEXT
     const text = document.createElement("p");
