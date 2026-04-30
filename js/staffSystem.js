@@ -104,9 +104,9 @@ window.staffData = [
 {
   image: "assets/images/teacher5.jpg",
   name: {
-    en: "Suleiman",
-    fr: "Souleiman",
-    ar: "سليمان"
+    en: "Suleiman Mohamed Salem",
+    fr: "Souleiman Mohamed Salem",
+    ar: "سليمان محمد سالم"
   },
   role: {
     en: "Teacher",
@@ -123,9 +123,9 @@ window.staffData = [
 {
   image: "assets/images/teacher6.jpg",
   name: {
-    en: "Abdullah",
-    fr: "Abdallah",
-    ar: "عبد الله"
+    en: "Abdullah Al-Mukhtar",
+    fr: "Abdallah Al-Mukhtar",
+    ar: "عبدالله المختار"
   },
   role: {
     en: "Teacher",
@@ -142,9 +142,9 @@ window.staffData = [
 {
   image: "assets/images/teacher7.jpg",
   name: {
-    en: "Ahmed",
-    fr: "Ahmed",
-    ar: "أحمد"
+    en: "Ahmed Meimoun Al-Jil",
+    fr: "Ahmed Meimoun Al-Jil",
+    ar: "أحمد ميمون الجيل"
   },
   role: {
     en: "Teacher",
@@ -395,4 +395,4 @@ function applyStaffStyles() {
   }
 `;
   document.head.appendChild(style);
-    }
+}
