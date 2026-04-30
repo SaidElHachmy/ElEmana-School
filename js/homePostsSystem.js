@@ -1,5 +1,5 @@
 // 🏠 HOME POSTS SYSTEM (News Feed)
-
+let currentHomePlayingVideo = null;
 function loadHomePosts() {
   const container = document.getElementById("postsContainer");
   if (!container) return;
@@ -10,44 +10,35 @@ function loadHomePosts() {
   const posts = [
   {
   type: "image",
-  src: "assets/images/postImage1.jpg",
+  src: "assets/images/activity13.jpg",
   text: {
-    en: "Today in the schoolyard, conversations turned into small stories, and silence transformed into lively movement. Every corner held a story, and every glance searched for a new meaning of learning beyond books. It looked like an ordinary day on the surface, but inside it carried a warmth that is not easily forgotten.",
-    ar: "في ساحة المدرسة اليوم تبدلت الأحاديث إلى حكاياتٍ صغيرة، وتحوّل الصمت إلى حركةٍ مليئة بالحياة. كل ركنٍ كان يحمل قصة، وكل نظرةٍ كانت تبحث عن معنى جديد للتعلّم خارج الكتب. كان يومًا عاديًا في ظاهره لكنه حمل في داخله شيئًا من الدفء الذي لا يُنسى.",
-    fr: "Aujourd’hui dans la cour de l’école, les discussions se sont transformées en petites histoires, et le silence en mouvement plein de vie. Chaque coin portait une histoire, et chaque regard cherchait un nouveau sens de l’apprentissage au-delà des livres. C’était un jour ordinaire en apparence, mais il contenait une chaleur qui ne s’oublie pas."
+    en: "",
+    ar: "",
+    fr: ""
   },
-  date: "2026-04-27",
+  date: "",
 },
-{
-  type: "image",
-  src: "assets/images/postImage1.jpg",
-  text: {
-    en: "Today at our school, the younger students gathered around a simple idea that turned into a different kind of day. Soft laughter moved through the classrooms, and a spirit of cooperation brought hearts together before hands. It was a brief moment in time, but it left a long-lasting mark in memory.",
-    ar: "اليوم في مدرستنا اجتمع الصغار حول فكرةٍ بسيطة، لكنها صنعت يومًا مختلفًا. ضحكات خفيفة مرّت بين الصفوف، وروح تعاونٍ جمعت القلوب قبل الأيادي. كانت لحظةً قصيرة في الزمن لكنها تركت أثرًا طويلًا في الذاكرة.",
-    fr: "Aujourd’hui dans notre école, les plus jeunes se sont réunis autour d’une idée simple qui a transformé la journée. Des rires légers ont traversé les classes, et un esprit de coopération a uni les cœurs avant les mains. Ce fut un moment bref dans le temps, mais il a laissé une trace durable dans la mémoire."
-  },
-  date: "2026-04-27",
-},
-  {
-    type: "image",
-    src: "assets/images/postImage1.jpg",
-    text: {
-      en: "Welcome back to school! 🎉",
-      ar: "مرحباً بعودتكم إلى المدرسة 🎉",
-      fr: "Bon retour à l’école 🎉"
-    },
-    date: "2026-04-26"
-  },
+
   {
     type: "video",
-    src: "assets/videos/postVideo1.mp4",
+    src: "assets/videos/video10.mp4",
     text: {
-      en: "Highlights from school activities.",
-      ar: "أهم لحظات الأنشطة المدرسية",
-      fr: "Moments forts des activités scolaires"
-    },
-    date: "2026-04-25"
-  }
+    en: "",
+    ar: "",
+    fr: ""
+  },
+  date: "",
+},
+
+
+
+
+
+
+
+
+
+
 ];
 
   container.innerHTML = "";
@@ -83,42 +74,65 @@ card.onmouseleave = () => {
     if (post.type === "image") {
       media = document.createElement("img");
       media.src = post.src;
+      
+      
 
       // ❌ fallback image
       media.onerror = function () {
         this.onerror = null;
         this.src = "assets/images/pic_error.gif";
+        this.style.objectFit = "cover";// ✅ fixed extension
       };
 
       media.style.width = "100%";
       media.style.height = "200px";
-      media.style.objectFit = "cover";
+      media.style.objectFit = "contain";
+media.style.background = "#f5f5f5";
     }
 
-    if (post.type === "video") {
-      media = document.createElement("video");
-      media.src = post.src;
-      media.controls = true;
+if (post.type === "video") {
+  media = document.createElement("video");
+  media.src = post.src;
+  media.controls = true;
 
-      // default poster
-      media.poster = "assets/images/tv_error.gif";
+  media.style.width = "100%";
+  media.style.height = "200px";
+  media.style.objectFit = "contain";
+  media.style.background = "#f5f5f5";
 
-      // ❌ fallback → replace with image
-      media.onerror = function () {
-        const img = document.createElement("img");
-        img.src = "assets/images/tv_error.gif";
-
-        img.style.width = "100%";
-        img.style.height = "250px";
-        img.style.objectFit = "cover";
-
-        this.replaceWith(img);
-      };
-
-      media.style.width = "100%";
-      media.style.height = "250px";
-      media.style.objectFit = "cover";
+  // 🎯 ONLY ONE HOME VIDEO AT A TIME
+  media.addEventListener("play", () => {
+    if (currentHomePlayingVideo && currentHomePlayingVideo !== media) {
+      currentHomePlayingVideo.pause();
     }
+    currentHomePlayingVideo = media;
+  });
+
+  media.addEventListener("pause", () => {
+    if (currentHomePlayingVideo === media) {
+      currentHomePlayingVideo = null;
+    }
+  });
+
+  media.addEventListener("ended", () => {
+    if (currentHomePlayingVideo === media) {
+      currentHomePlayingVideo = null;
+    }
+  });
+
+  // 🎬 poster fallback
+ // media.poster = "assets/images/tv_error.gif";
+
+  // ❌ fallback
+  media.onerror = function () {
+    const img = document.createElement("img");
+    img.src = "assets/images/tv_error.gif";
+    img.style.width = "100%";
+    img.style.height = "200px";
+    img.style.objectFit = "cover";
+    this.replaceWith(img);
+  };
+}
 
     // 📝 TEXT
     const text = document.createElement("p");
@@ -141,4 +155,4 @@ card.onmouseleave = () => {
 
     container.appendChild(card);
   });
-}
+                }
