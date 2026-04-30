@@ -258,9 +258,9 @@ window.staffData = [
 {
   image: "assets/images/teacher13.jpg",
   name: {
-    en: "Ramla",
-    fr: "Ramla",
-    ar: "رملة"
+    en: "Ramla Bint Hdemin",
+    fr: "Ramla Bint Hdemin",
+    ar: "رملة بنت حدمين"
   },
   role: {
     en: "Kindergarten Teacher",
@@ -395,4 +395,4 @@ function applyStaffStyles() {
   }
 `;
   document.head.appendChild(style);
-}
+    }
