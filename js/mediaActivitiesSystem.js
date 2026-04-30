@@ -18,149 +18,6 @@ function loadMediaActivities() {
     fr: ""
   }
 },
-{
-  type: "image",
-  src: "assets/images/activity2.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-{
-  type: "image",
-  src: "assets/images/activity3.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-{
-  type: "image",
-  src: "assets/images/activity4.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-{
-  type: "image",
-  src: "assets/images/activity5.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-{
-  type: "image",
-  src: "assets/images/activity6.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-{
-  type: "image",
-  src: "assets/images/activity7.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-
-{
-  type: "image",
-  src: "assets/images/activity8.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-
-{
-  type: "image",
-  src: "assets/images/activity9.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-
-{
-  type: "image",
-  src: "assets/images/activity10.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-
-{
-  type: "image",
-  src: "assets/images/activity11.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-{
-  type: "image",
-  src: "assets/images/activity12.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-{
-  type: "image",
-  src: "assets/images/activity13.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-{
-  type: "image",
-  src: "assets/images/activity14.jpg",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-
-
-
 
 
 
@@ -175,6 +32,25 @@ function loadMediaActivities() {
       }
     },
     
+
+
+
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity2.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
     
 
 
@@ -193,6 +69,21 @@ function loadMediaActivities() {
 
 
 
+
+{
+  type: "image",
+  src: "assets/images/activity3.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
+
     {
       type: "video",
       src: "assets/videos/video3.mp4",
@@ -204,6 +95,21 @@ function loadMediaActivities() {
     },
     
     
+
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity4.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
 
 
 
@@ -222,6 +128,21 @@ function loadMediaActivities() {
 
 
 
+
+
+{
+  type: "image",
+  src: "assets/images/activity5.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
     {
       type: "video",
       src: "assets/videos/video5.mp4",
@@ -232,6 +153,21 @@ function loadMediaActivities() {
       }
     },
     
+
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity6.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
 
 
 
@@ -249,6 +185,20 @@ function loadMediaActivities() {
 
 
 
+
+{
+  type: "image",
+  src: "assets/images/activity7.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
     {
       type: "video",
       src: "assets/videos/video7.mp4",
@@ -260,6 +210,20 @@ function loadMediaActivities() {
     },
     
     
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity8.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
 
 
 
@@ -277,6 +241,22 @@ function loadMediaActivities() {
 
 
 
+{
+  type: "image",
+  src: "assets/images/activity9.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
+
+
+
     {
       type: "video",
       src: "assets/videos/video9.mp4",
@@ -287,7 +267,21 @@ function loadMediaActivities() {
       }
     },
     
-    
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity10.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
 
 
 
@@ -305,6 +299,22 @@ function loadMediaActivities() {
 
 
 
+
+{
+  type: "image",
+  src: "assets/images/activity11.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+    
+
+
     {
       type: "video",
       src: "assets/videos/video11.mp4",
@@ -315,6 +325,18 @@ function loadMediaActivities() {
       }
     },
     
+
+{
+  type: "image",
+  src: "assets/images/activity12.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
     
 
 
@@ -329,6 +351,35 @@ function loadMediaActivities() {
       }
     },
     
+
+
+{
+  type: "image",
+  src: "assets/images/activity13.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
+{
+  type: "image",
+  src: "assets/images/activity14.jpg",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+
+
+
+
+
     
     
     
