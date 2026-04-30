@@ -153,6 +153,6 @@ if (post.type === "video") {
     card.appendChild(text);
     card.appendChild(date);
 
-    container.appendChild(card);
+    container.prepend(card);
   });
                 }
