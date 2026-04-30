@@ -181,9 +181,9 @@ window.staffData = [
 {
   image: "assets/images/teacher9.jpg",
   name: {
-    en: "Mohamed",
-    fr: "Mohamed",
-    ar: "محمد"
+    en: "Mohamed Sidi Baba",
+    fr: "Mohamed Sidi Baba",
+    ar: "محمد سيدي بابه"
   },
   role: {
     en: "Supervisor",
@@ -195,7 +195,7 @@ window.staffData = [
     fr: "Surveillance",
     ar: "الإشراف"
   },
-  phone: "00000000"
+  phone: "36336555"
 },
 
 {
@@ -239,9 +239,9 @@ window.staffData = [
 {
   image: "assets/images/teacher12.jpg",
   name: {
-    en: "Malik",
-    fr: "Malik",
-    ar: "مالك"
+    en: "Bukhari Malik",
+    fr: "Bokhari Malik",
+    ar: "بخاري مالك"
   },
   role: {
     en: "Primary School Teacher",
