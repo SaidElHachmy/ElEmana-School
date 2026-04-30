@@ -1,5 +1,7 @@
 // 🧭 SECTION NAVIGATION SYSTEM
 function showSection(sectionId) {
+    
+    stopAllVideos();
   const sections = document.querySelectorAll(".section");
 
   sections.forEach(sec => sec.classList.remove("active"));
@@ -33,3 +35,19 @@ function showSection(sectionId) {
   
   
 }
+
+function stopAllVideos() {
+  document.querySelectorAll("video").forEach(video => {
+    video.pause();
+    video.currentTime = 0; // 🔥 RESET TO START
+  });
+
+  // reset single-play trackers
+  if (typeof currentPlayingVideo !== "undefined") currentPlayingVideo = null;
+  if (typeof currentHomePlayingVideo !== "undefined") currentHomePlayingVideo = null;
+}
+
+
+
+
+
