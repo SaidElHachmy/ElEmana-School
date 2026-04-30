@@ -448,6 +448,6 @@ if (item.type === "video") {
     // 📦 APPEND
     card.appendChild(mediaEl);
     card.appendChild(text);
-    container.appendChild(card);
+    container.prepend(card);
   });
 }
