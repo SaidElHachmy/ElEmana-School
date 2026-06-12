@@ -9,6 +9,10 @@ function loadMediaActivities() {
 
   // 🧠 DATA (ADD YOUR POSTS HERE)
   const mediaData = [
+      
+
+      
+      
 {
   type: "image",
   src: "assets/images/activity1.jpg",
@@ -376,6 +380,19 @@ function loadMediaActivities() {
   }
 },
 
+
+      {
+  type: "video",
+  src: "assets/videos/video13.mp4",
+  text: {
+    en: "\"After months of hard work and perseverance, we have reached the end of our journey with the sixth-grade students whom I had the honor of teaching. They were exemplary students in both character and ambition. It was an experience marked by mutual respect and appreciation. My dear students, may God bless you and grant you success in your next stage, and may all your hopes and aspirations come true. 😍\" — Teacher: Nebughouha Cheikh Achbieh",
+
+    ar: "\"بعد أشهرٍ من الجدِّ والمثابرة، ها نحن نصل إلى ختام رحلتنا مع تلاميذ القسم السادس الذين تشرفتُ بتدريسهم، فكانوا نعمَ الطلاب خُلُقًا وطموحًا. كانت تجربةً طغى عليها التقدير والاحترام. دمتم أعزائي التلاميذ، ووفَّقكم الله في مسيرتكم القادمة، وحقق لكم آمالكم وطموحاتكم. 😍\" — الأستاذة: نبغوها الشيخ أشبيه",
+
+    fr: "\"Après des mois de travail acharné et de persévérance, nous arrivons aujourd'hui à la fin de notre parcours avec les élèves de la sixième année que j'ai eu l'honneur d'enseigner. Ils ont été des élèves exemplaires, tant par leur comportement que par leur ambition. Cette expérience a été marquée par l'estime et le respect mutuels. Je vous souhaite, chers élèves, beaucoup de réussite dans votre prochaine étape et l'accomplissement de tous vos rêves. 😍\" — Professeure : Nebughouha Cheikh Achbieh"
+  }
+},
+      
 
 
 
