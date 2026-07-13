@@ -30,6 +30,114 @@ function loadHomePosts() {
   date: "",
 },
 
+    {
+      type: "video",
+      src: "assets/videos/video18.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+        {
+      type: "video",
+      src: "assets/videos/video19.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+        {
+      type: "video",
+      src: "assets/videos/video25.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video27.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video30.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video45.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video52.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video58.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video89.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    
+    
+    
+    
+
 
 
 
@@ -155,4 +263,4 @@ if (post.type === "video") {
 
     container.prepend(card);
   });
-                }
+}
