@@ -542,67 +542,6 @@ function loadMediaActivities() {
 
 
 
-ar: "",
-    fr: ""
-  }
-},
-{
-  type: "video",
-  src: "assets/videos/video87.mp4",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-{
-  type: "video",
-  src: "assets/videos/video88.mp4",
-  text: {
-    en: "",
-    ar: "",
-    fr: ""
-  }
-},
-      
-      
-      
-    
-    {
-      type: "video",
-      src: "assets/videos/video89.mp4",
-      text: {
-        en: "",
-    ar: "",
-    fr: ""
-      }
-    },
-    
-    
-    
-    
-    {
-      type: "video",
-      src: "assets/videos/video90.mp4",
-      text: {
-        en: "",
-    ar: "",
-    fr: ""
-      }
-    },
-      
-      
-    
-    {
-      type: "video",
-      src: "assets/videos/video91.mp4",
-      text: {
-        en: "",
-    ar: "",
-    fr: ""
-      }
-    },
-      
 
 
 
