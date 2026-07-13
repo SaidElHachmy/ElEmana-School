@@ -1142,18 +1142,7 @@ function loadMediaActivities() {
     fr: ""
       }
     },
-    
-    
-    {
-  type: "video",
-  src: "assets/videos/video4.mp4",
-  text: {
-    en: "End of the 2025-2026 school year",
-    ar: "نهاية السنة الدراسية للعام الدراسي 2025-2026",
-    fr: "Fin de l'année scolaire 2025-2026"
-  }
-},
-    
+ 
     
     
     
