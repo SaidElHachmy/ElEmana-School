@@ -535,6 +535,124 @@ function loadMediaActivities() {
     },
 
     
+      {
+      type: "video",
+      src: "assets/videos/video28.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      {
+  type: "video",
+  src: "assets/videos/video29.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video30.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video31.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video32.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video33.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video34.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video35.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video36.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video37.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video38.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video39.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video40.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
   
 
 
