@@ -393,14 +393,766 @@ function loadMediaActivities() {
   }
 },
       
+      
+      
+          {
+      type: "video",
+      src: "assets/videos/video14.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+          {
+      type: "video",
+      src: "assets/videos/video15.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+        {
+      type: "video",
+      src: "assets/videos/video16.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+          {
+      type: "video",
+      src: "assets/videos/video17.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+          {
+      type: "video",
+      src: "assets/videos/video18.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+          {
+      type: "video",
+      src: "assets/videos/video19.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video20.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video21.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+      
+      {
+      type: "video",
+      src: "assets/videos/video22.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      {
+      type: "video",
+      src: "assets/videos/video23.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+      {
+      type: "video",
+      src: "assets/videos/video24.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+      {
+      type: "video",
+      src: "assets/videos/video25.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      {
+      type: "video",
+      src: "assets/videos/video27.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+      {
+      type: "video",
+      src: "assets/videos/video28.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      {
+  type: "video",
+  src: "assets/videos/video29.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video30.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video31.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video32.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video33.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video34.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video35.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video36.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video37.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video38.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video39.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video40.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video41.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video42.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video43.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video44.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video45.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video46.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video47.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video48.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+      
+      
+      {
+  type: "video",
+  src: "assets/videos/video49.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video50.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video51.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video52.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video53.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video54.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video55.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video56.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video57.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video58.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video59.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video60.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video61.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video62.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video63.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video64.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video65.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video66.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video67.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video68.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+      
+      {
+  type: "video",
+  src: "assets/videos/video69.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video70.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video71.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video72.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video73.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video74.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video75.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video76.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video77.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video78.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video79.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video80.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video81.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video82.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video83.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video84.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video85.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video86.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video87.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+{
+  type: "video",
+  src: "assets/videos/video88.mp4",
+  text: {
+    en: "",
+    ar: "",
+    fr: ""
+  }
+},
+      
+      
+      
+    
+    {
+      type: "video",
+      src: "assets/videos/video89.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+    
+    
+    
+    
+    {
+      type: "video",
+      src: "assets/videos/video90.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
+      
+    
+    {
+      type: "video",
+      src: "assets/videos/video91.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
+      
 
 
 
 
     
     
+    {
+      type: "video",
+      src: "assets/videos/video92.mp4",
+      text: {
+        en: "",
+    ar: "",
+    fr: ""
+      }
+    },
     
     
+    {
+  type: "video",
+  src: "assets/videos/video4.mp4",
+  text: {
+    en: "End of the 2025-2026 school year",
+    ar: "نهاية السنة الدراسية للعام الدراسي 2025-2026",
+    fr: "Fin de l'année scolaire 2025-2026"
+  }
+},
     
     
     
@@ -518,4 +1270,4 @@ if (item.type === "video") {
     card.appendChild(text);
     container.prepend(card);
   });
-}
+        }
