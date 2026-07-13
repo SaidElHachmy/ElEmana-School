@@ -45,10 +45,11 @@ window.staffData = [
 {
   image: "assets/images/teacher2.jpg",
   name: {
-    en: "Mohamed Abdallah",
-    fr: "Mohamed Abdallah",
-    ar: "محمد عبدالله"
+    en: "Mohamed Aliwa",
+    fr: "Mohamed Aliwa",
+    ar: "محمد اعليوه"
   },
+
   role: {
     en: "Principal",
     fr: "Directeur",
