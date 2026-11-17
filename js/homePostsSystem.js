@@ -29,6 +29,7 @@ function loadHomePosts() {
   },
   date: "",
 },
+/*
 
     {
       type: "video",
@@ -131,7 +132,7 @@ function loadHomePosts() {
       }
     },
     
-    
+    */
     
     
     
