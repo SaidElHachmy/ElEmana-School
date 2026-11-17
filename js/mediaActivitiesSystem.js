@@ -329,6 +329,7 @@ function loadMediaActivities() {
       }
     },
     
+  
 
 {
   type: "image",
@@ -381,6 +382,8 @@ function loadMediaActivities() {
 },
 
 
+
+
       {
   type: "video",
   src: "assets/videos/video13.mp4",
@@ -395,6 +398,8 @@ function loadMediaActivities() {
       
       
       
+      
+      
           {
       type: "video",
       src: "assets/videos/video14.mp4",
@@ -404,6 +409,7 @@ function loadMediaActivities() {
     fr: ""
       }
     },
+      
       
           {
       type: "video",
@@ -654,7 +660,6 @@ function loadMediaActivities() {
   }
 },
   
-
 
 
 
