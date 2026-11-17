@@ -29,7 +29,7 @@ function loadHomePosts() {
   },
   date: "",
 },
-/*
+
 
     {
       type: "video",
@@ -40,6 +40,7 @@ function loadHomePosts() {
     fr: ""
       }
     },
+    
     
         {
       type: "video",
@@ -84,7 +85,7 @@ function loadHomePosts() {
       }
     },
     
-    
+    /*
     {
       type: "video",
       src: "assets/videos/video45.mp4",
@@ -132,7 +133,8 @@ function loadHomePosts() {
       }
     },
     
-    */
+    
+    
     
     
     
@@ -141,7 +143,7 @@ function loadHomePosts() {
 
 
 
-
+*/
 
 
 
