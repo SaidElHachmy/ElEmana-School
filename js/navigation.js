@@ -23,10 +23,10 @@ function showSection(sectionId) {
   if (sectionId === "library") {
     loadBooks();
   }
-  
+  /*
   if (sectionId === "schedule" && window.loadSchedule) {
   loadSchedule();
-}
+}*/
 
   if (sectionId === "staff" && window.loadStaff) {
   loadStaff();
